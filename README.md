@@ -1,6 +1,42 @@
 # Market
-java -jar Market-0.0.1-SNAPSHOT.jar
-CREATE DATABASE emarket CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+## Step by step guide
+
+
+### First of all, we need to create database for our application
+##### Command to create proper database: ```CREATE DATABASE emarket CHARACTER SET utf8 COLLATE utf8_general_ci;```
+##
+
+### Now we should to create folder for our application
+##
+### Than we are download .jar file from [there](hehe), and put it in created folder
+
+### In folder we should create a new file with name application.properties and put inside the following code
+ 
+- spring.datasource.username and spring.datasource.password should contain your data 
+
+``` 
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/emarket
+spring.datasource.username=root
+spring.datasource.password=12345
+spring.datasource.driver-class-name =com.mysql.jdbc.Driver
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+
+
+spring.datasource.initialization-mode=always
+spring.datasource.continue-on-error=true
+```
+
+##
+### Well, now we need to start our application
+`
+You should change C:\Me\IncredibleFolder\application.properties to path from the application.properties which we are created above
+`
+##### Command to run application on localhost: ```java -jar Market-0.0.1-SNAPSHOT.jar --spring.config.location=file:C:\Me\IncredibleFolder\application.properties --server.port=8083```
+##
 
 
 ## Endpoint URLs for each business scenario with needed body
