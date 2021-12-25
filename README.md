@@ -1,4 +1,4 @@
-# Market
+# Market REST service
 
 ## Step by step guide
 
