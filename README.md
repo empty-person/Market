@@ -9,7 +9,7 @@
 
 ### Now we should to create folder for our application
 ##
-### Than we are download .jar file from [there](hehe), and put it in created folder
+### Than we are download .jar file from [there](https://github.com/empty-person/Market/blob/master/target/Market-0.0.1-SNAPSHOT.jar), and put it in created folder
 
 ### In folder we should create a new file with name application.properties and put inside the following code
  
