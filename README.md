@@ -1,5 +1,6 @@
 # Market
 java -jar Market-0.0.1-SNAPSHOT.jar
+CREATE DATABASE emarket CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 
 ## Endpoint URLs for each business scenario with needed body
