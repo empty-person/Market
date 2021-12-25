@@ -35,6 +35,8 @@ spring.datasource.continue-on-error=true
 #### Open command prompt and type command below with adjusted values
 `
 You should change Market-0.0.1-SNAPSHOT.jar with location of downloaded jar 
+`
+`
 You should change C:\Me\IncredibleFolder\application.properties to path from the application.properties which we are created above
 `
 ##### Command to run application on localhost: ```java -jar Market-0.0.1-SNAPSHOT.jar --spring.config.location=file:C:\Me\IncredibleFolder\application.properties --server.port=8083```
